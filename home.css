@@ -1,0 +1,76 @@
+*{
+    padding: 0; border: 0; margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    color: #ccc;
+}
+
+body {
+  background-color: rgb(50, 101, 134);
+  width: 80vw;
+}
+
+h1 {
+  color: white;
+  text-align: left;
+  font-size: 32px;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+  padding-left: 60px:
+  text-align: justify;
+}
+
+div {
+  padding: 50px, 20px, 20px, 60px;
+}
+
+.paragraph{
+  padding-left: 40px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.main-header a{
+    letter-spacing: .18rem;
+    text-transform: uppercase;
+}
+
+.wrapper {
+  display: flex;
+    flex-direction: column;
+    height: 80vh;
+    margin: 0 auto;
+    max-width: 1550px;
+    padding-top: .5rem;
+    width: 93%;
+}
+
+.masthead{
+    /* Both of these are needed to keep the #menu-toggle visible when nav list is active / open. */
+    position: relative;
+    z-index: 1000;
+    /********************************/
+    top: 0;
+    left: 0;
+    width: 100%;
+    align-items: baseline;
+    display: flex;
+    justify-content: space-between;
+}
