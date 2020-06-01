@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="location.css">
+    <title>Takeaway</title>
+
+  </head>
+
+  <body>
+
+    <header>
+      <h1 class="Name">Takeaway Name</h1>
+      <ul class="nav">
+        <li class="navlink"><a href="#">Home</a></li>
+        <li class="navlink"><a href="#">About</a></li>
+        <li class="navlink"><a href="#">Menu</a></li>
+        <li class="navlink"><a href="/webpage_location.html">Location</a></li>
+        <li class="navlink"><a href="#">Contact</a></li>
+      </ul>
+
+    </header>
+
+    <div class="content">
+
+      <div id="map">
+        <p> Map go here </p>
+        <script>
+
+        function initMap() {
+          // The location of Uluru
+          var uluru = {lat: -25.344, lng: 131.036};
+          // The map, centered at Uluru
+          var map = new google.maps.Map(
+          document.getElementById('map'), {zoom: 4, center: uluru});
+          // The marker, positioned at Uluru
+          var marker = new google.maps.Marker({position: uluru, map: map});
+
+          // key = AIzaSyBDyRTmTJDL3YvBF1cMr5BrEpDsYWSQ1Vg
+        }
+      </script>
+      <!--Load the API from the specified URL
+      * The async attribute allows the browser to render the page while the API loads
+      * The key parameter will contain your own API key (which is not needed for this tutorial)
+      * The callback parameter executes the initMap() function
+      -->
+      <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDyRTmTJDL3YvBF1cMr5BrEpDsYWSQ1Vg&callback=initMap">
+      </script>
+
+    </div>
+    </div>
+
+    <footer class = "footer">
+      <p> Contact us </p>
+      <ul class = "contact">
+       <li class="phone"> Phone: ############ </li>
+       <li class="email">  Email: example@example.com </li>
+       <li class="address"> In Person: Address </li>
+    </footer>
+
+  </body>
