@@ -17,40 +17,59 @@
         <li class="navlink"><a href="#">Home</a></li>
         <li class="navlink"><a href="#">About</a></li>
         <li class="navlink"><a href="#">Menu</a></li>
-        <li class="navlink"><a href="/webpage_location.html">Location</a></li>
+        <li class="navlink"><a href="webpage_location.html">Location</a></li>
         <li class="navlink"><a href="#">Contact</a></li>
       </ul>
 
     </header>
 
-    <div class="content">
+    <div id="container">
+
+      <div class="content">
+        <h2> Why don't you pop in? </h2>
+        <br>
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi cursus
+          erat sed urna commodo posuere. Etiam id varius dui. Curabitur consectetur
+          dui vel leo congue, nec pharetra ante congue. Nam tincidunt interdum quam
+          id bibendum. Vestibulum turpis lorem, tincidunt quis nulla tincidunt,
+          sollicitudin lobortis leo. Quisque sodales quam quis semper ultrices.
+          Donec facilisis elit nunc, et sagittis mauris finibus eu. Curabitur vel
+          sodales est. Cras gravida metus eros, ac gravida massa ultricies
+          condimentum. Fusce bibendum tincidunt purus ac elementum. Mauris nec
+          nisi ut nulla varius accumsan at ut ligula. Etiam fermentum lobortis
+          malesuada. Vestibulum suscipit pellentesque felis id imperdiet.
+          Mauris ornare risus non eros tincidunt accumsan. Aliquam malesuada
+          felis rutrum, ullamcorper libero nec, porta nulla.
+        </p>
+      </div>
 
       <div id="map">
-        <p> Map go here </p>
-        <script>
+        <p> Map goes here </p>
 
-        function initMap() {
-          // The location of Uluru
-          var uluru = {lat: -25.344, lng: 131.036};
-          // The map, centered at Uluru
-          var map = new google.maps.Map(
-          document.getElementById('map'), {zoom: 4, center: uluru});
-          // The marker, positioned at Uluru
-          var marker = new google.maps.Marker({position: uluru, map: map});
+          <script>
+          function initMap() {
+            var takeaway = {lat: 50.750212, lng: -1.983003};
+            var map = new google.maps.Map(
+            document.getElementById('map'), {zoom: 16, center: takeaway});
 
-          // key = AIzaSyBDyRTmTJDL3YvBF1cMr5BrEpDsYWSQ1Vg
-        }
-      </script>
-      <!--Load the API from the specified URL
-      * The async attribute allows the browser to render the page while the API loads
-      * The key parameter will contain your own API key (which is not needed for this tutorial)
-      * The callback parameter executes the initMap() function
+            var marker = new google.maps.Marker({position: takeaway, map: map});
+
+            // key = AIzaSyBDyRTmTJDL3YvBF1cMr5BrEpDsYWSQ1Vg
+          }
+        </script>
+        <!--Load the API from the specified URL
+        * The async attribute allows the browser to render the page while the API loads
+        * The key parameter will contain your own API key (which is not needed for this tutorial)
+        * The callback parameter executes the initMap() function
       -->
-      <script async defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDyRTmTJDL3YvBF1cMr5BrEpDsYWSQ1Vg&callback=initMap">
-      </script>
 
-    </div>
+        <script async defer
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDyRTmTJDL3YvBF1cMr5BrEpDsYWSQ1Vg&callback=initMap">
+        </script>
+
+      </div>
+      <div class="push"></div>
+
     </div>
 
     <footer class = "footer">
