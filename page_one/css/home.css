@@ -1,10 +1,10 @@
 #main-image{
-  width: 80%;
-  height: 60%;
-  align-self: auto;
+  width: 90%;
+  height: 70%;
+  overflow: hidden;
 }
 
 img {
   max-width: 100%;
-  max-height: 100%;
+  align-self: center;
 }
