@@ -19,6 +19,27 @@
   padding: 1em;
 }
 
+.shop {
+  width: 60%;
+  border-style: solid;
+}
+
+.shop h2{
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+.shop p{
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+.shop button{
+  background-color: #6079a6;
+  padding: 10px;
+}
+
 .content{
   width: 45%;
   height: 100%;
