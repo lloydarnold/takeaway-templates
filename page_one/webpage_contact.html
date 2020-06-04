@@ -55,9 +55,7 @@
             <h2> Location three </h2>
             <p> <b> Phone: </b> 07828 902 910 </p>
             <p> <b> Address: </b> 10 A Road, A Town, Post Code </p>
-            <div class="button-container">
-              <button type="map-finder"> Show on map </button>
-            </div>
+            <button type="map-finder"> Show on map </button>
           </div>
 
         </div>
@@ -69,26 +67,10 @@
           <div id="map">
             <p> Sorry, we're having some trouble loading... </p>
             <br>
-            <a href="maps.google.com"> Click this link to find us!</a>
+            <a href="https://www.google.co.uk/maps/"> Click this link to find us!</a>
 
-              <script>
-              function initMap() {
-                var takeaway = {lat: 50.750212, lng: -1.983003};
-                var map = new google.maps.Map(
-                document.getElementById('map'), {zoom: 15, center: takeaway});
-
-                var marker = new google.maps.Marker({position: takeaway, map: map});
-
-                // key = AIzaSyBDyRTmTJDL3YvBF1cMr5BrEpDsYWSQ1Vg
-              }
-            </script>
-            <!--Load the API from the specified URL
-            * The async attribute allows the browser to render the page while the API loads
-            * The key parameter will contain your own API key (which is not needed for this tutorial)
-            * The callback parameter executes the initMap() function
-          -->
-
-            <script async defer
+            <script src="js/map_buttons.js"></script>
+            <script async defer>
               src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDyRTmTJDL3YvBF1cMr5BrEpDsYWSQ1Vg&callback=initMap">
             </script>
 
