@@ -1,0 +1,8 @@
+#horizontal-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding-top: 20px;
+  width: 100%;
+  height: 100%;
+}
