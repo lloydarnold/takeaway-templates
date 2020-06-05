@@ -33,10 +33,6 @@ h3 {
   text-align: center;
 }
 
-/*hr {
-  width:80%;
-} */
-
 .pillar-container {
   padding-top: 20px;
   width: 90%;
@@ -49,4 +45,22 @@ h3 {
   text-align: justify;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+
+.button-container{
+  width: 100%;
+  height: auto;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+button{
+  background-color: #6079a6;
+  padding: 20px;
+  border: none;
+  color: white;
+  text-align: center;
 }
