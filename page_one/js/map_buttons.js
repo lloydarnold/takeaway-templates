@@ -7,7 +7,7 @@ script.async = true;
 // Attach your callback function to the `window` object
 window.initMap = function initMap(){
   // JS API is loaded and available
-  var takeaway = {lat: 50.750212, lng: -1.983003};
+  var takeaway = {lat: 50.750212, lng: -1.993003};
   var map = new google.maps.Map(
   document.getElementById('map'), {zoom: 15, center: takeaway});
 
@@ -17,8 +17,7 @@ window.initMap = function initMap(){
 };
 
 var button_click = function() {
-  alert("Move map marker");
-  console.log("called");
+  alert("This will move map marker to new location");
 };
 
 // Append the 'script' element to 'head'
