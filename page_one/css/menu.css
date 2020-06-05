@@ -1,5 +1,5 @@
 #container{
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
 }
 
@@ -10,5 +10,18 @@
   align-content: center;
   width: 80%;
   height: 100%;
-  padding:
+  padding-top: 20px;
+}
+
+.menu-grouping {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.menu-section {
+  align-self: center;
+  border: none;
+  width: 90%;
+  border-spacing: 10px;
 }
