@@ -3,12 +3,13 @@
     box-sizing: border-box;
     list-style-type: none;
     text-decoration: none;
-    color: #ccc;
+    font-family: arial;
 }
 
 html, body {
-  background-color: rgb(50, 101, 134);
+  background-color: #ebebeb;
   width: 100%;
+  color: #5c5c5c;
   height: 100%;
 }
 
@@ -18,8 +19,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background: #152238;
-  color: #ccc;
+  background: #636363;
+  color: #adadad;
 }
 
 body {
@@ -33,8 +34,8 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background: #152238;
-  color: #ccc;
+  background: #636363;
+  color: #adadad !important;
   padding: 20px;
 }
 
@@ -51,11 +52,18 @@ footer {
 }
 
 .name {
+  color: #adadad;
   letter-spacing: 3px;
 }
 
+a{
+  color: inherit;
+}
+
 .nav {
+  color: #adadad;
   padding-top: 30px;
+  font-size: 16;
   padding-bottom: 30px;
   display: flex;
   justify-content: space-around;
