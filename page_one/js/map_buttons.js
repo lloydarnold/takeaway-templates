@@ -16,8 +16,18 @@ window.initMap = function initMap(){
   // key = AIzaSyBDyRTmTJDL3YvBF1cMr5BrEpDsYWSQ1Vg
 };
 
+var button_click = function() {
+  alert("Move map marker");
+  console.log("called");
+};
+
 // Append the 'script' element to 'head'
 document.head.appendChild(script);
 
+buttons = document.getElementsByClassName('button')
 
-// getElementsByClassName('map-finder')
+console.log(buttons.length)
+for (var i = 0; i < buttons.length; i++) {
+  buttons[i].addEventListener('click', button_click);
+  console.log(i);
+}
