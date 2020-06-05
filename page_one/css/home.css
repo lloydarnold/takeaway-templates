@@ -1,7 +1,6 @@
 #container {
   justify-content: top;
   flex-direction: column;
-  /* flex: 0 1 auto !important; */
 }
 
 .img-txt-container {
