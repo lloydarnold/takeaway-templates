@@ -36,7 +36,7 @@ footer {
   justify-content: space-around;
   background: #636363;
   color: #adadad !important;
-  padding: 60px;
+  padding: 20px;
 }
 
 .contact {
@@ -62,9 +62,9 @@ button{
   text-align: center;
 }
 
-.map {
-  height: 80px;
-  width: 80px;
+#map {
+  min-height: 200px;
+  min-width: 200px;
 }
 
 .nav {
@@ -83,4 +83,8 @@ button{
 
 .footer {
   flex-shrink: 0;
+}
+
+.footer p{
+  padding-left: 10px;
 }
