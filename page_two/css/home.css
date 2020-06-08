@@ -52,6 +52,11 @@ body, html {
   justify-content: center;
 }
 
+.home-button {
+  max-width: 15vw;
+  align-self: center;
+}
+
 .content * {
   padding-left: 30px;
   padding-bottom: 12px;
