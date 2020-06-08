@@ -19,8 +19,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background: #636363;
-  color: #adadad;
+  background: #333069;
+  color: #FFFFFF;
 }
 
 body {
@@ -34,8 +34,8 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background: #636363;
-  color: #adadad !important;
+  background: #333069;
+  color: #FFFFFF;
   padding: 20px;
 }
 
@@ -46,7 +46,6 @@ footer {
 }
 
 .name {
-  color: #adadad;
   letter-spacing: 3px;
 }
 
@@ -68,7 +67,6 @@ button{
 }
 
 .nav {
-  color: #adadad;
   padding-top: 30px;
   font-size: 22px;
   padding-bottom: 30px;
