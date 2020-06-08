@@ -2,7 +2,7 @@ body, html {
   height: auto;
 }
 
-#img-overlay {
+#img1-overlay {
   position: absolute;
   right: 7vw;
   display: flex;
@@ -12,11 +12,31 @@ body, html {
   color: #FFFFFF
 }
 
-#img-overlay h1{
+#img1-overlay h1{
   font-size: 72px;
 }
 
-#img-overlay h2{
+#img1-overlay h2{
+  font-size: 42px;
+}
+
+#img2-overlay {
+  position: absolute;
+  left: 7vw;
+  width: 40vw;
+  text-align: justify;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-top: 20px;
+  color: #FFFFFF
+}
+
+#img2-overlay h1{
+  font-size: 72px;
+}
+
+#img2-overlay h2{
   font-size: 42px;
 }
 
