@@ -55,6 +55,18 @@ body, html {
 .home-button {
   max-width: 15vw;
   align-self: center;
+  padding: 20px !important;
+}
+
+.push-buttons{
+  width: 10vh;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .content * {
