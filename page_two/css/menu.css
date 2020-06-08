@@ -1,6 +1,9 @@
 #container{
   flex-direction: column;
+  display: flex;
+  align-items: center;
   justify-content: center;
+  background-color: #c2c2c2;
 }
 
 #menu-wrapper{
@@ -11,6 +14,12 @@
   width: 80%;
   height: 100%;
   padding-top: 20px;
+  background-color: #ebebeb;
+}
+
+hr {
+  align-self: center;
+  width: 95%;
 }
 
 .menu-grouping {
@@ -18,6 +27,11 @@
   flex-direction: column;
   align-content: center;
 }
+
+.menu-grouping h2{
+  padding-left: 2.5%;
+}
+
 
 .menu-section {
   align-self: center;
