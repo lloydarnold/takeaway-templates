@@ -41,8 +41,14 @@ footer {
   flex-direction: row;
 }
 
+#left-column * {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
 #left-column {
-  background-color: #111 ;
+  background-color: #111;
   color: #FFF;
   display: inline-block;
   height: 100%;
@@ -51,6 +57,9 @@ footer {
 #left-column > h2 {
   writing-mode: vertical-rl;
   padding: 10px;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 55px;
 }
 
 img {
