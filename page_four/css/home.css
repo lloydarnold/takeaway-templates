@@ -50,5 +50,11 @@
 }
 
 .content-2 {
-  width: 40;
+  width: 40%;
+  padding: 35px;
+  text-align: justify;
+}
+
+.content-2 p {
+  padding-top: 15px;
 }
