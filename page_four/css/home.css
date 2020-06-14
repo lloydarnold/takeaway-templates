@@ -1,5 +1,4 @@
 .welcome-img{
   overflow: hidden;
-  max-width: 80vw;
-  height: auto;
+  max-height: 100vh;
 }
